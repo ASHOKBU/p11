@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+    {% block title %}
+    <title>Home HTML</title>
+    {% endblock %}
+{% block content %}
+<a href="{% url 'base' %}">base</a>
+<a href="{% url 'child' %}">child</a>
+    <h1>this is home html</h1>
+    {% endblock %}
